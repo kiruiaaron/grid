@@ -1,0 +1,169 @@
+body{
+    background-color: #EDF2F8;
+}
+.first{grid-area: Daniel;}
+.second{grid-area: jonathan;}
+.third{grid-area: harmon;}
+.fourth{grid-area: patrick;}
+.fifth{grid-area: kira;}
+
+.container{
+    display: grid;
+   grid-template-areas: 'Daniel Daniel jonathan kira' 'harmon patrick patrick kira' ;
+   gap: 30px;
+   margin: 100px;
+   width: 50px auto;
+}
+.first{
+    background-color: #7660c9;
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    padding: 20px;
+}
+.image{grid-area: image;}
+.name{grid-area: dan;}
+.verified{grid-area: veri;}
+
+ 
+
+.image img{
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 3px;
+    object-fit: cover;
+    float: left;
+}
+.name{
+    padding-left: 1px;
+    margin-left: 1px;
+}
+.verified{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.second{
+    background-color: #49556B;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.name3{
+    color: #ffffff;
+}
+.image1{
+    border-radius: 50%;
+}
+.image1 img{
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 3px;
+    object-fit: cover;
+    float: left;
+}
+.name1{
+    color: #FFFFFF;
+}
+.third{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.dec{
+    padding: 10px;
+}
+.final-dec{
+    padding: 20px;
+}
+.dec1{
+    padding: 10px;
+}
+.final-dec1
+{
+    padding: 20px;
+}
+.dec2{
+    padding: 10px;
+}
+.final-dec2{
+    color: #CAD1D3;
+    padding: 20px;
+}
+.fourth{
+    background-color: #18202D;
+    border-radius: 10px;
+    padding: 20px;
+ 
+
+}.dec4{
+ padding: 10px;
+ 
+}
+.final-dec4{
+    padding: 20px;
+
+}
+.fifth{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 190px;
+    padding: 20px;
+
+}
+.image2 img{
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 3px;
+    object-fit: cover;
+    float: left;
+}
+.image3 img{
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 3px;
+    object-fit: cover;
+    float: left;
+}
+.dec3{
+    color: #ffff;
+    padding: 10px;
+}
+.final-dec3{
+    color: #CAD1D3;
+    padding: 20px;
+}
+.image4 img{
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 3px;
+    object-fit: cover;
+    float: left;
+}
+.image5 img{
+    border-radius: 50%;
+    margin-right: 2px;
+    padding: 3px;
+    object-fit: cover;
+    float: left;
+}
+
+.verified{
+    color: #94A0B0;
+}
+.verified1{
+    color: #94A0B0;
+}
+.verified2{
+    color: #94A0B0;
+}
+.verified3{
+    color: #94A0B0;
+}
+.verified4{
+    color: #94A0B0;
+}
+.verified5{
+    color: #94A0B0;
+}
